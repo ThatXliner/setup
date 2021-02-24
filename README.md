@@ -35,8 +35,11 @@ and
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+**Editing `~/.zshrc`:**
+
 * Set the `COMPLETION_WAITING_DOTS` to `true`
 * Export `UPDATE_ZSH_DAYS` to `13`
+
 #### Plugins
  - git
  - brew
@@ -50,11 +53,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
  - colored-man-pages
  - ripgrep
  - z ([Install](#z))
- - zsh-autosuggestions (Install later)
- - zsh-syntax-highlighting (Install later)
+ - zsh-autosuggestions ([Install](#zsh-))
+ - zsh-syntax-highlighting ([Install](#zsh-))
 
 ##### z
-Z is now [built-in](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z). No install!
+Z is now [built-in](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z). No install :smiley:!
+
 ##### zsh-*
 
 ##### Poetry and Invoke
