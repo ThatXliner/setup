@@ -2,6 +2,7 @@
 
 What I do to set up a new Mac. These are mostly notes for myself.
 
+**NOTE:** Most of these do not require admin privileges
 
 
 ## Terminal and Shell
@@ -85,12 +86,20 @@ mkdir -p $ZSH_CUSTOM/plugins/invoke && invoke --print-completion-script=zsh > $Z
 
 ## Tools
 
-### Installation scripts
+### Pyenv
 
-#### Pyenv
+### Homebrew
 
-#### Homebrew
+### Poetry
 
-#### Poetry
+### Git
+
+### GPG
+
+#### Admin-less
+
+#### Easiest
+
+### Git, GitHub, and GPG
 
 ## Misc
