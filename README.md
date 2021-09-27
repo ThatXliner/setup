@@ -4,6 +4,7 @@ What I do to set up a new Mac. These are mostly notes for myself.
 
 **NOTE:** Most of these do not require admin privileges
 
+note to self: maybe upload my `.zshrc`?
 
 ## Terminal and Shell
 
@@ -62,17 +63,14 @@ Z is now [built-in](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z). N
 
 ##### zsh-*
 
-##### Poetry and Invoke
+##### Poetry
 Poetry (modified) from [docs](https://python-poetry.org/docs/#enable-tab-completion-for-bash-fish-or-zsh):
 
 ```bash
 mkdir -p $ZSH_CUSTOM/plugins/poetry && poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
 ```
 
-Invoke:
-```bash
-mkdir -p $ZSH_CUSTOM/plugins/invoke && invoke --print-completion-script=zsh > $ZSH_CUSTOM/plugins/invoke/_invoke
-```
+Then add the `poetry` plugin to your `.zshrc`
 
 ### Powerlevel10k
 
@@ -88,7 +86,27 @@ mkdir -p $ZSH_CUSTOM/plugins/invoke && invoke --print-completion-script=zsh > $Z
 
 ### Pyenv
 
+```bash
+curl -sSf https://pyenv.run | bash
+```
+
+Then add the following to your `.zshrc` before the `source $ZSH/oh-my-zsh.sh`
+
+```bash
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:/Users/bryanhu/.local/bin:$PATH"
+eval "$(pyenv init --path)"
+```
+
 ### Homebrew
+
+```bash
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+```
+
+I forgot how I got the completions. Maybe add the `brew` plugin to your `.zshrc` (I didn't)?
+
+Remember to add `~/homebrew/bin` to your `$PATH`, though.
 
 ### Poetry
 
@@ -103,3 +121,9 @@ mkdir -p $ZSH_CUSTOM/plugins/invoke && invoke --print-completion-script=zsh > $Z
 ### Git, GitHub, and GPG
 
 ## Misc
+
+---
+
+Helpful tips if you read this far:
+
+ - [How to open and use apps downloaded from GitHub (or any other source) that is not code signed](https://docs.brew.sh/FAQ#the-app-cant-be-opened-because-it-is-from-an-unidentified-developer)
