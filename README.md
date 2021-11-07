@@ -4,7 +4,7 @@ What I do to set up a new Mac. These are mostly notes for myself.
 
 **NOTE:** Most of these do not require admin privileges
 
-note to self: maybe upload my `.zshrc`?
+~~note to self: maybe upload my `.zshrc`?~~ Check out [my dotfiles](https://github.com/ThatXliner/dotfiles)!
 
 ## Terminal and Shell
 
