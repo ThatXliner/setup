@@ -43,7 +43,7 @@ Remember, only install applications to the ~/Application folder
 	1. Install Muse Keys
 	2. Sign in
 4. Install Obsidian
-5. Install RawTherapee (and drag to system folder)
+5. Install ~~RawTherapee~~ Darktable (and drag to system folder)
 ## Dev tools
 1. Install Xcode
 	1. Install iOS Sims
@@ -57,9 +57,9 @@ Remember, only install applications to the ~/Application folder
 	3. https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
 8. Setup SSH by copying over the folder from the USB
 9. Copy over the projects folder
-10. Install VSCode
+~~10. Install VSCode
 	1. Install CLI (Search for "shell command")
-	2. Setup extensions and themes and keymaps (I didn't back this up 😭)
+	2. Setup extensions and themes and keymaps (I didn't back this up 😭)~~
 11. Install Zed (yes, 2 editors)
 	1. Sign in
 12. Run my dotfiles install script
